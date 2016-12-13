@@ -19,33 +19,35 @@
 form{
 	margin-top: 40px;
 }
+.margen-fondo{
+    margin: 0px 1px -4px 0px;	
+}
+.banner{
+	width: 100%;
+}
 .afiches{
 	background-color: #F9C434;
 	float: left;
-	padding:30px 65px;
+    padding: 21px 106px;
 
 }
-
-
 .portadas{
-	width: 180px;
-	height: 230px;
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 170px;
+    height: 220px;
+    margin-left: 5px;
+    margin-right: 11px;	
 }
 .more{
 	width:100%;
 	background-color: white;
 	float: left;
-	padding:40px 150px;
-
-
+	padding:40px 245px;
 }
 .movie{
-	width: 230px;
-	height: 280px;
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 200px;
+	height: 250px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 footer{
@@ -149,7 +151,13 @@ header{
 }
 
 .descripcion{
-	display:relative;
+    position: absolute;
+    left: 750px;
+    top: 140px;
+    padding-left: 50px;
+}
+.margen{
+    margin: 0px;
 }
 .play{
 	font-family: icomoon;
@@ -184,11 +192,7 @@ margin-bottom: 50px;
 .banner{
 	width: 100%;
 }
-.descripcion{
-	position: relative;
-	bottom: 600px;
-	left:800px;
-}
+
 .bh{
 	color:#D9D6D6;
 }
@@ -207,8 +211,9 @@ hr{
 p{
 	margin-top: 20px;
 	color:#D9D6D6;
+	padding-right: 30px;
+	padding-bottom: 20px;
 }
-
 
 h5{
 	color: #D9D6D6;
